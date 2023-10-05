@@ -15,10 +15,10 @@ for (let countNum = 0; countNum <= 100; countNum++){
     if (countNum % 3 == 0 && countNum % 5 == 0){
         console.log("FIZZBUZZ");
     }
-    if (countNum % 3 == 0){
+    else if (countNum % 3 == 0){
         console.log("FIZZ");
     }
-    if (countNum % 5 == 0){
+    else if (countNum % 5 == 0){
         console.log("BUZZ");
     }
 }
@@ -35,10 +35,10 @@ do {
     if (isNum % 3 == 0 && isNum % 5 == 0){
         console.log("FIZZBUZZ");
     }
-    if (isNum % 3 == 0){
+    else if (isNum % 3 == 0){
         console.log("FIZZ");
     }
-    if (isNum % 5 == 0){
+    else if (isNum % 5 == 0){
         console.log("BUZZ");
     }
     isNum++;
